@@ -1,0 +1,19 @@
+{
+  "name": "react-typescript-template",
+  "version": "1.0.0",
+  "description": "A TypeScript+React+ExpressJS project template for NodeJS",
+  "main": "src/server/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdhgee/react-typescript-template.git"
+  },
+  "author": "David Gee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cdhgee/react-typescript-template/issues"
+  },
+  "homepage": "https://github.com/cdhgee/react-typescript-template#readme"
+}
