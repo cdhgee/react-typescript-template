@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cdhgee/react-typescript-template/issues"
   },
-  "homepage": "https://github.com/cdhgee/react-typescript-template#readme"
+  "homepage": "https://github.com/cdhgee/react-typescript-template#readme",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.47"
+  }
 }
