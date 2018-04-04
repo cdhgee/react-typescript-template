@@ -1,0 +1,46 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules"
+    ],
+    "jsRules": {},
+    "rules": {
+      "await-promise": true,
+      "binary-expression-operand-order": true,
+      "deprecation": true,
+      "encoding": true,
+      "indent": {
+        "options": ["spaces", 2]
+      },
+      "linebreak-style": {
+        "options": ["LF"]
+      },
+      "newline-before-return": true,
+      "newline-per-chained-call": true,
+      "no-boolean-literal-compare": true,
+      "no-console": false,
+      "no-default-export": true,
+      "no-duplicate-imports": true,
+      "no-floating-promises": true,
+      "no-implicit-dependencies": true,
+      "no-invalid-template-strings": true,
+      "no-null-keyword": true,
+      "no-return-await": true,
+      "no-this-assignment": true,
+      "no-unnecessary-callback-wrapper": true,
+      "no-unused-variable": true,
+      "prefer-readonly": true,
+      "quotemark": {
+        "options": ["double"]
+      },
+      "restrict-plus-operands": true,
+      "strict-boolean-expressions": true,
+      "strict-type-predicates": true,
+      "ter-indent": {
+       "options": [2]
+      },
+      "triple-equals": true
+    },
+    "rulesDirectory": []
+}
