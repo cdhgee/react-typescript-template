@@ -86,8 +86,8 @@
     "url": "git+https://github.com/cdhgee/react-typescript-template.git"
   },
   "scripts": {
-    "run:dev": "babel-node --extensions .ts,.tsx src/app.ts ",
-    "watch": "nodemon --exec npm run run:dev"
+    "run:dev": "babel-node --extensions .ts,.tsx src/app.ts --inspect",
+    "watch": "nodemon -w src -e .ts,.tsx --exec npm run run:dev"
   },
   "version": "1.0.0"
 }
