@@ -1,6 +1,8 @@
 module.exports = {
   presets: [
-    ["@babel/preset-typescript",],
+    [
+      "@babel/preset-typescript",
+    ],
     [
       "@babel/env",
       {
@@ -10,4 +12,5 @@ module.exports = {
       },
     ],
   ],
+  sourceMaps: true,
 };
