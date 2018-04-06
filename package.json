@@ -1,21 +1,13 @@
 {
-  "name": "react-typescript-template",
-  "version": "1.0.0",
-  "description": "A TypeScript+React+ExpressJS project template for NodeJS",
-  "main": "src/server/app.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cdhgee/react-typescript-template.git"
-  },
   "author": "David Gee",
-  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/cdhgee/react-typescript-template/issues"
   },
-  "homepage": "https://github.com/cdhgee/react-typescript-template#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "spdy": "^3.4.7"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.44",
     "@babel/core": "^7.0.0-beta.44",
@@ -29,9 +21,10 @@
     "tslint-eslint-rules": "^5.1.0",
     "typescript": "^2.8.1"
   },
+  "name": "react-typescript-template",
+  "description": "A TypeScript+React+ExpressJS project template for NodeJS",
+  "homepage": "https://github.com/cdhgee/react-typescript-template#readme",
   "jspm": {
-    "name": "react-typescript-template",
-    "main": "src/app.ts",
     "configFiles": {
       "jspm": "config/jspm.config.js"
     },
@@ -54,6 +47,8 @@
       "util": "npm:jspm-nodelibs-util@^0.2.0",
       "vm": "npm:jspm-nodelibs-vm@^0.2.0"
     },
+    "name": "react-typescript-template",
+    "main": "src/app.ts",
     "overrides": {
       "npm:inherits@2.0.3": {
         "ignore": [
@@ -82,9 +77,14 @@
       }
     }
   },
-  "dependencies": {
-    "express": "^4.16.3",
-    "morgan": "^1.9.0",
-    "spdy": "^3.4.7"
-  }
+  "license": "GPL-3.0",
+  "main": "src/server/app.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdhgee/react-typescript-template.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
