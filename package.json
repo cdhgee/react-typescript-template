@@ -11,12 +11,14 @@
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.44",
     "@babel/core": "^7.0.0-beta.44",
+    "@babel/node": "^7.0.0-beta.44",
     "@babel/preset-env": "^7.0.0-beta.44",
     "@babel/preset-typescript": "^7.0.0-beta.44",
     "@types/express": "^4.11.1",
     "@types/morgan": "^1.7.35",
     "@types/node": "^9.6.2",
     "jspm": "^0.17.0-beta.47",
+    "nodemon": "^1.17.3",
     "tslint": "^5.9.1",
     "tslint-eslint-rules": "^5.1.0",
     "typescript": "^2.8.1"
@@ -84,7 +86,8 @@
     "url": "git+https://github.com/cdhgee/react-typescript-template.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run:dev": "babel-node --extensions .ts,.tsx src/app.ts ",
+    "watch": "nodemon --exec npm run run:dev"
   },
   "version": "1.0.0"
 }
