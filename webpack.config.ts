@@ -1,8 +1,11 @@
-import * as path from "path";
-import * as webpack from "webpack";
+import { ProjectConfig } from "./config/ProjectConfig";
 
-const config: webpack.Configuration = {
-  entry: "./src/client-app",
+import * as path from "path";
+
+const config: ProjectConfig = {
+  entry: {
+    app: "./src/client-app",
+  },
   mode: "development",
   module: {
     rules: [

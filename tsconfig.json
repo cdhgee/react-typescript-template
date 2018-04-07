@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "module": "ES6",
-    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "Node",
     "sourceMap": true,
     "strict": true,
-    "target": "ES5",
-    "allowSyntheticDefaultImports": true
+    "target": "ES5"
   },
   "include": [
     "src/**/*"
