@@ -13,9 +13,7 @@
       "indent": {
         "options": ["spaces", 2]
       },
-      "linebreak-style": {
-        "options": ["LF"]
-      },
+      "interface-name": false,
       "newline-before-return": true,
       "newline-per-chained-call": true,
       "no-boolean-literal-compare": true,
